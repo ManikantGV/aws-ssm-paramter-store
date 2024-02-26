@@ -15,7 +15,5 @@ parameters = [
   { name: "dev.catalogue.catalogue_host",value= "catalogue-dev.guntikadevops.online" },
   { name: "dev.catalogue.port",value= "8080" }
 
-
-
 ]
 
