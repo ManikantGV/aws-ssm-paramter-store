@@ -10,7 +10,7 @@ parameters = [
 
   { name: "dev.user.redis_host",value= "redis-dev.guntikadevops.online" },
   { name: "dev.user.mongo",value= "MONGO=true" },
-  { name: "dev.user.catalogue",value= "mongodb://mongodb-dev.guntikadevops.online:27017/users" },
+  { name: "dev.user.mongo_url",value= "mongodb://mongodb-dev.guntikadevops.online:27017/users" },
 
   { name: "dev.catalogue.catalogue_host",value= "catalogue-dev.guntikadevops.online" },
   { name: "dev.catalogue.port",value= "8080" }
