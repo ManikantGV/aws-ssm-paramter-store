@@ -17,6 +17,10 @@ parameters = [
   { name: "dev.cart.port",value= "8080" },
 
   { name: "dev.shipping.cart_endpoint",value= "cart-dev.guntikadevops.online:8080" },
-  { name: "dev.shipping.db_host",value= "mysql-dev.guntikadevops.online" }
+  { name: "dev.shipping.db_host",value= "mysql-dev.guntikadevops.online" },
+
+  { name: "dev.shipping.db_user",value= "root" },
+  { name: "dev.shipping.db_password",value= "RoboShop@1" }
+
 ]
 
