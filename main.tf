@@ -7,3 +7,11 @@ resource "aws_ssm_parameter" "parameters" {
 
 }
 
+resource "aws_ssm_parameter" "passwords" {
+
+  count = length(var.passwords)
+  name = var.passwords[count.index].name
+  value = var.passwords[count.index].value
+  type = "SecureString"
+
+}
