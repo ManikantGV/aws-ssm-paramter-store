@@ -25,10 +25,10 @@ parameters = [
   { name: "dev.user.user_host",value= "user-dev.guntikadevops.online" },
   { name: "dev.user.port",value= "8080" },
 
-  { name: "dev.payment.catalogue_host",value= "catalogue-dev.guntikadevops.online" },
-  { name: "dev.payment.port",value= "8080" },
+  { name: "dev.payment.cart_host",value= "cart-dev.guntikadevops.online" },
+  { name: "dev.payment.cart_port",value= "8080" },
   { name: "dev.payment.user_host",value= "user-dev.guntikadevops.online" },
-  { name: "dev.payment.port",value= "8080" },
+  { name: "dev.payment.user_port",value= "8080" },
   { name: "dev.payment.AMQP_HOST",value= "rabbitmq-dev.guntikadevops.online" },
   { name: "dev.payment.AMQP_USER",value= "roboshop" },
 
