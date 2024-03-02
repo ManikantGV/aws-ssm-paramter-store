@@ -28,9 +28,13 @@ parameters = [
   { name: "dev.payment.AMQP_HOST",value= "rabbitmq-dev.guntikadevops.online" },
   { name: "dev.payment.AMQP_USER",value= "roboshop" },
 
+  { name: "dev.dispatch.AMQP_HOST",value= "rabbitmq-dev.guntikadevops.online" },
+  { name: "dev.dispatch.AMQP_USER",value= "roboshop" }
+
 ]
 
 passwords = [
   { name: "dev.payment.AMQP_PASS",value= "roboshop123" },
-  { name: "dev.shipping.db_password",value= "RoboShop@1" }
+  { name: "dev.shipping.db_password",value= "RoboShop@1" },
+  { name: "dev.dispatch.AMQP_PASS",value= "roboshop123" }
 ]
