@@ -5,7 +5,7 @@ parameters = [
   { name: "dev.frontend.shipping_url",value= "http://shipping-dev.guntikadevops.online:8080/" },
   { name: "dev.frontend.payment_url",value= "http://payment-dev.guntikadevops.online:8080/" },
 
-  { name: "ddev.db.mongodb_endpoint",value= "mongodb-dev.guntikadevops.online" },
+  { name: "dev.db.mongodb_endpoint",value= "mongodb-dev.guntikadevops.online" },
 
   { name: "dev.catalogue.mongodb_endpoint",value= "mongodb-dev.guntikadevops.online" },
   { name: "dev.catalogue.mongo",value= "MONGO=true" },
