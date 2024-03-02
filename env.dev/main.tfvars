@@ -4,6 +4,7 @@ parameters = [
   { name: "dev.frontend.user_url",value= "http://user-dev.guntikadevops.online:8080/" },
   { name: "dev.frontend.shipping_url",value= "http://shipping-dev.guntikadevops.online:8080/" },
   { name: "dev.frontend.payment_url",value= "http://payment-dev.guntikadevops.online:8080/" },
+
   { name: "dev.catalogue.mongodb_endpoint",value= "mongodb-dev.guntikadevops.online" },
   { name: "dev.catalogue.mongo",value= "MONGO=true" },
   { name: "dev.catalogue.mongo_url",value= "mongodb://mongodb-dev.guntikadevops.online:27017/catalogue" },
@@ -18,13 +19,16 @@ parameters = [
 
   { name: "dev.shipping.cart_endpoint",value= "cart-dev.guntikadevops.online:8080" },
   { name: "dev.shipping.db_host",value= "mysql-dev.guntikadevops.online" },
-
   { name: "dev.shipping.db_user",value= "root" },
 
 
   { name: "dev.user.user_host",value= "user-dev.guntikadevops.online" },
   { name: "dev.user.port",value= "8080" },
 
+  { name: "dev.payment.catalogue_host",value= "catalogue-dev.guntikadevops.online" },
+  { name: "dev.payment.port",value= "8080" },
+  { name: "dev.payment.user_host",value= "user-dev.guntikadevops.online" },
+  { name: "dev.payment.port",value= "8080" },
   { name: "dev.payment.AMQP_HOST",value= "rabbitmq-dev.guntikadevops.online" },
   { name: "dev.payment.AMQP_USER",value= "roboshop" },
 
